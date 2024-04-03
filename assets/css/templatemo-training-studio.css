@@ -613,13 +613,14 @@ banner
 
 .main-banner {
   position: relative;
+   
 }
 
 #bg-video {
     min-width: 100%;
-    min-height: 100vh;
-    max-width: 100%;
-    max-height: 100vh;
+    min-height: 70vh;
+    max-width: 70%;
+    max-height: 70vh;
     object-fit: cover;
     z-index: -1;
 }
@@ -630,7 +631,7 @@ banner
 
 .video-overlay {
     position: absolute;
-    background-color: rgba(35,45,57,0.8);
+    background-color: rgba(31, 48, 36, 0.811);
     top: 0;
     left: 0;
     bottom: 7px;
@@ -642,7 +643,7 @@ banner
   position: absolute;
   width: 80%;
   left: 50%;
-  top: 50%;
+  top: 70%;
   transform: translate(-50%,-50%);
 }
 
@@ -680,11 +681,13 @@ features
 
 #features {
   margin-bottom: 80px;
+ 
 }
 
 .feature-item {
   display: inline-block;
   margin-bottom: 60px;
+  
 }
 
 .feature-item .left-icon img {
